@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBanking" duration-ms="10768" started-at="2020-05-15T11:14:26 IST" finished-at="2020-05-15T11:14:37 IST">
+    <groups>
+    </groups>
+    <test name="Baking App test" duration-ms="10768" started-at="2020-05-15T11:14:26 IST" finished-at="2020-05-15T11:14:37 IST">
+      <class name="com.inetBanking.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@3712b94]" name="setup" is-config="true" duration-ms="9861" started-at="2020-05-15T11:14:26 IST" finished-at="2020-05-15T11:14:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@3712b94]" name="loginDDT" duration-ms="0" started-at="2020-05-15T11:14:36 IST" data-provider="LoginData" finished-at="2020-05-15T11:14:36 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:563)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:776)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@3712b94]" name="tearDown" is-config="true" duration-ms="707" started-at="2020-05-15T11:14:36 IST" finished-at="2020-05-15T11:14:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testCases.TC_LoginDDT_002 -->
+    </test> <!-- Baking App test -->
+  </suite> <!-- InetBanking -->
+</testng-results>
